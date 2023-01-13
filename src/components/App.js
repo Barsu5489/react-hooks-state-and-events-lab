@@ -4,7 +4,7 @@ import itemData from "../data/items";
 import { useState } from "react";
 
 function App() {
-const [mode , setMode] = useState(true)
+const [mode , setMode] = useState(false)
 function handleMode(){
   setMode(!mode)
 }
